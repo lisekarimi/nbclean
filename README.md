@@ -1,4 +1,4 @@
-# 🧹 nbclean
+# 🧹 nbclean - Clean up Notebooks to Reduce File Size
 
 A simple Python script that cleans Jupyter notebooks by removing outputs, execution counts, and widget metadata to significantly reduce file size.
 
@@ -11,22 +11,22 @@ A simple Python script that cleans Jupyter notebooks by removing outputs, execut
 
 ## 💡 Why use this?
 
-- 📝 **Version control**: Cleaner git diffs without output noise
-- 📤 **File sharing**: Smaller files for easier sharing
-- 💾 **Storage**: Reduced disk space usage
-- 🤝 **Collaboration**: Removes execution-specific data for cleaner handoffs
+- **Version control**: Cleaner git diffs without output noise
+- **File sharing**: Smaller files for easier sharing
+- **Storage**: Reduced disk space usage
+- **Collaboration**: Removes execution-specific data for cleaner handoffs
 
 ## ✨ Features
 
-- 📦 **Batch processing**: Automatically finds and cleans all `.ipynb` files
-- 📊 **Size reporting**: Shows before/after sizes and reduction percentage
-- 🛡️ **Error handling**: Continues processing even if some notebooks fail
-- 📈 **Summary stats**: Displays total space saved across all notebooks
+- **Batch processing**: Automatically finds and cleans all `.ipynb` files
+- **Size reporting**: Shows before/after sizes and reduction percentage
+- **Error handling**: Continues processing even if some notebooks fail
+- **Summary stats**: Displays total space saved across all notebooks
 
 ## ⚡ Requirements
 
-- 🐍 Python 3.x
-- ✅ No external dependencies (uses only standard library)
+- Python 3.x
+- No external dependencies (uses only standard library)
 
 ## 🛠️ Installation
 
